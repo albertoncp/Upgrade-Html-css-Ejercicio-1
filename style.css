@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #212121;
+    align-items: center;
+    
+}
+.pizza{
+    width: 200px;
+    margin-right: 150px;
+    margin-left: 50px;
+
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: 50px;
+}
+a{
+    all: unset;
+    color: white;
+    
+}
+a:hover{
+    border-bottom: solid 4px #f2c209;
+}
+.contacto{
+    margin-right: 160px;
+}
+main{
+    background-position: center;
+    background-image: url(./Imagenes/pexels-pixabay-260922.jpg);
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+div{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
